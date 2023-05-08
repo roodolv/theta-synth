@@ -8,11 +8,7 @@ A simple software synthesizer developed with C++, using framework "[WDL-OL/IPlug
 
 This repository is a result of my personal interest and was created following articles found on [Making Audio Plugins - Martin Finke's Blog](https://www.martin-finke.de/tags/making_audio_plugins.html).
 
-**NOTICE**: This repository contains C++ source code and GUI components **only**.
-
 ## GUI Components
-
-All the GUI resources were **created by me**.
 
 You can find and view the exported PNG files of the metallic knob [here](gui_knob).
 
@@ -29,3 +25,11 @@ This software requires a variety of knowledge, including:
 - Fourier transform (for generating waveforms)
 - Observer pattern using `<functional>` (C++ Technical Report 1)
 - Realtime monitoring of MIDI signals using [pbhogan/Signals](https://github.com/pbhogan/Signals)
+
+## License
+
+This repository contains only C++ source code and GUI components.
+
+The C++ source code provided here is derived from [the tutorial](https://www.martin-finke.de/tags/making_audio_plugins.html), and its use is subject to the conditions set by the author.
+
+Meanwhile, all the GUI components were created by me and are licensed under [the MIT license](LICENSE).
